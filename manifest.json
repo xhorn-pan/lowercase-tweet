@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
     "name": "Tweet2LowerCase",
-    "version": "1.0",
+    "version": "1.0.1",
     "description": "converts selected text to lowercase,on x.com, make it readable",
     "permissions": [
         "contextMenus",
