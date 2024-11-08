@@ -1,6 +1,6 @@
 {
     "manifest_version": 2,
-    "name": "Sane Transformer, -in-sane",
+    "name": "Tweet2LowerCase",
     "version": "1.0",
     "description": "converts selected text to lowercase,on x.com, make it readable",
     "permissions": [
