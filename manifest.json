@@ -21,6 +21,6 @@
         "js": ["content.js"]
     }],
     "icons": {
-        "32": "icon.png"
+        "64": "icon.png"
     }
 }
