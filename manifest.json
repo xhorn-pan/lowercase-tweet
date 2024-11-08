@@ -1,0 +1,26 @@
+{
+    "manifest_version": 2,
+    "name": "Sane Transformer, -in-sane",
+    "version": "1.0",
+    "description": "converts selected text to lowercase,on x.com, make it readable",
+    "permissions": [
+        "contextMenus",
+        "activeTab",
+        "tabs",
+        "*://x.com/*"
+    ],
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": true
+    },
+    "browser_action": {
+        "default_icon": "icon.png"
+    },
+    "content_scripts": [{
+        "matches": ["*://x.com/*"],
+        "js": ["content.js"]
+    }],
+    "icons": {
+        "32": "icon.png"
+    }
+}
